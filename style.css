@@ -1,15 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap);
 :root {
---bg: hsl(0, 0%, 95%);
---text: #000000;
---aside: hsl(215, 78%, 91%);
---link: #fffde0;
---bar: #FDB59F;
---inner-top: inset 12px 8px 16px;
---inner-bottom: inset -12px -8px 16px;
---outer: 0px 10px 24px var(--sh);
---sh: hsl(0, 0%, 80%);
+  --bg: #f2f2f2;
+  --text: #000000;
+  --aside: #d6e5fa;
+  --link: #fffde0;
+  --bar: #fdb59f;
+  --inner-btm: inset 0 -10px 15px 0;
+  --inner-top: inset 12px 8px 16px;
+  --outer: 0 35px 65px 0;
 }
+
 *,
 *::before,
 *::after {
@@ -78,8 +78,8 @@ h6 {
   margin-top: 2em;
   padding: 1em 1em 1em 2em;
   background-color: var(--aside);
-  box-shadow: var(--inner-top) hsl(215, 78%, 93%),
-    var(--inner-bottom) hsl(215, 95%, 88%), var(--outer);
+  box-shadow: var(--inner-top) #d6e5fa, var(--inner-btm) #bdd6f9,
+    var(--outer) #cadffb;
   border-top-left-radius: 2em;
   border-bottom-left-radius: 2em;
   font-weight: 500;
@@ -162,8 +162,8 @@ h6 {
   align-items: center;
   column-gap: 2em;
   padding: 2em;
-  box-shadow: var(--inner-top) hsl(0, 0%, 100%),
-    var(--inner-bottom) hsl(0, 10%, 90%), var(--outer);
+  box-shadow: var(--outer) #ffe5e5, var(--inner-top) #fff,
+    var(--inner-btm) #e1e1e1;
   border-radius: 2em;
 }
 @media (min-width: 2000px) {
@@ -207,14 +207,11 @@ h6 {
 }
 .card__visual {
   grid-row: 1 / 3;
-
   transition: transform ease-in-out 0.4s;
 }
 .card__visual img {
   border-radius: 0.5em;
   object-fit: cover;
-  box-shadow: var(--outer);
-  box-shadow: 0px 10px 24px hsl(0, 0%, 85%);
 }
 .card:hover .card__visual {
   transform: scale(1.05);
