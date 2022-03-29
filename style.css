@@ -1,13 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap);
 :root {
-  --bg: #f2f2f2;
+  --bg: #f5f9ff;
   --text: #000000;
   --aside: #d6e5fa;
   --link: #fffde0;
   --bar: #fdb59f;
-  --inner-btm: inset 0 -10px 15px 0;
-  --inner-top: inset 12px 8px 16px;
-  --outer: 0 35px 65px 0;
+  --inner-btm: inset -5px 5px 22px;
+  --inner-top: inset 5px -5px 22px;
 }
 
 *,
@@ -78,7 +77,7 @@ h6 {
   margin-top: 2em;
   padding: 1em 1em 1em 2em;
   background-color: var(--aside);
-  box-shadow: var(--inner-top) #d6e5fa, var(--inner-btm) #bdd6f9,
+  box-shadow: var(--inner-top) #bccadc, var(--inner-btm) #f0ffff,
     var(--outer) #cadffb;
   border-top-left-radius: 2em;
   border-bottom-left-radius: 2em;
@@ -162,9 +161,9 @@ h6 {
   align-items: center;
   column-gap: 2em;
   padding: 2em;
-  box-shadow: var(--outer) #ffe5e5, var(--inner-top) #fff,
-    var(--inner-btm) #e1e1e1;
+  box-shadow: var(--inner-btm) #d8dbe0, var(--inner-top) #ffffff;
   border-radius: 2em;
+  background: #f5f9ff;
 }
 @media (min-width: 2000px) {
   .card {
