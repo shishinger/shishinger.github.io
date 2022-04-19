@@ -34,7 +34,7 @@
     <path d="M4.02 5.4v1.78l1.74.3v4.46M11.98 5.4v1.78l-1.74.3v4.46M5.51 11.44h4.99M6.5 4.5S7 6.29 8 6.29 9.5 4.5 9.5 4.5" stroke="#333"/>
   </svg>
 
-  <svg id="favorite" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <svg id="favorite" fill="none" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
     <path d="M7.9 3.1C6.7-2.53-2.6 1.9 1.76 7.6c4.35 5.7 6.64 7.9 6.64 7.9" stroke="currentColor"/>
     <path d="M7.9 3.1c1.2-5.62 10.83-1.2 6.48 4.5S7.7 15.5 7.7 15.5" stroke="currentColor"/>
     <path d="M7.4 2.7h1l-.02.54H7.4v-.53Z" fill="currentColor"/>
